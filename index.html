@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="myJS.js"></script>
+    <link rel="stylesheet" type="text/css" href="myCSS.css">
+
+</head>
+<canvas id="myCanvas"  width="1500" height="700"
+        style="z-index:1">
+</canvas>
+<body onload="initialize()">
+<input id = "Start" type="button" value="Start Game" onclick="startGame()" style="display: none">
+<br>
+<p1 id = "Hero Name" ></p1>
+<br>
+<p3 id = "Hero Attributes"></p3>
+<br>
+<p11 id = "heroCoins"></p11>
+<br>
+<p12 id = "heroHearts"></p12>
+<br>
+<p13 id = "heroKills"></p13>
+<br>
+<p4 id = "Stages" ></p4>
+<br>
+<p7 id = "Enemy Attributes"></p7>
+<br>
+<p5 id = "Stage Stats1" ></p5>
+<br>
+<p6 id = "Stage Stats2" ></p6>
+<br>
+<input id = "Shop" type="button" value="Press Twice and Scroll ↓ for Shop" onclick="shop()" >
+<br>
+<div id="myDIV">
+    <p8 id = "shop"></p8>
+    <br>
+    <br>
+    <input id = "Sword" type="button" style ="display: none"  onclick="buySword()" value="Click to buy sword">
+    <br>
+    <input id = "Health" type="button" onclick="buyHealth()" value="Click to buy health" style="display: none">
+    <br>
+    <input id = "Strength" type="button" onclick="buyStrength()" value="Click to buy strength" style="display: none">
+    <br>
+</div>
+
+
+
+
+</body>
+</html>

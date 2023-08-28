@@ -1,0 +1,114 @@
+#myDIV {
+    padding: 50px;
+    text-align: center;
+    background-color: red;
+    border: 100px #000000;
+    margin-top: 400px;
+
+
+}
+#Start{
+    z-index: 2;
+    position: absolute;
+    top: 645px;
+    left:1300px;
+}
+
+#Sword{
+    background-color: gold;
+    left: 0;
+    right: 100px;
+    top: 680px;
+    bottom: 0;
+    width: 1420px;
+    height: 30px;
+}
+#Strength{
+    background-color: aqua;
+    left: 0;
+    right: 100px;
+    top: 800px;
+    bottom: 0;
+    width: 1420px;
+    height: 30px;
+}
+#Health{
+    background-color: #ff3de3;
+    left: 0px;
+    right: 100px;
+    top: 900px;
+    bottom: 0;
+    width: 1420px;
+    height: 30px;
+}
+#Start{
+    background-color: red;
+    width:200px;
+    height: 50px;
+}
+#Shop{
+    z-index: 2;
+    background-color: lawngreen;
+    width: 225px;
+    height: 45px;
+    position: absolute;
+    top: 645px;
+    right: 1275px;
+}
+#Hero\ Attributes{
+    z-index: 2;
+    position:absolute;
+    top:40px;
+    left: 1100px;
+    color:white;
+}
+#heroCoins{
+    z-index: 2;
+    position:absolute;
+    top:175px;
+    left: 1100px;
+    color: white;
+}
+#heroHearts{
+    z-index: 2;
+    position:absolute;
+    top:195px;
+    left: 1100px;
+    color: white;
+}
+#heroKills{
+    z-index: 2;
+    position:absolute;
+    top:215px;
+    left: 1100px;
+    color:white;
+}
+#Stages{
+    z-index: 2;
+    position:absolute;
+    top:70px;
+    left: 1100px;
+    color: white
+}
+#Enemy\ Attributes{
+    z-index: 2;
+    position:absolute;
+    top:100px;
+    left: 1100px;
+    color: white;
+}
+#Stage\ Stats1{
+    z-index: 2;
+    position:absolute;
+    top:130px;
+    left: 1100px;
+    color: white
+}
+#Stage\ Stats2{
+    z-index: 2;
+    position:absolute;
+    top:150px;
+    left: 1100px;
+    color: white;
+}
+
